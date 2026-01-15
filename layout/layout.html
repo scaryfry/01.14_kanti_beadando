@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="hu">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <title>Layout</title>
-</head>
+  </head>
 
-<body>
-    <div class="container border" style="height: 30vh;">
-        <div class="row">
-            <div class="col border m-2">
-                Column1
-            </div>
-            <div class="col border m-2">
-                Column2
-            </div>
-            <div class="col border m-2">
-                Column3
-            </div>
-        </div>
+  <body>
+    <div class="container border" style="height: 30vh">
+      <div class="row">
+        <div class="col border m-2">Column1</div>
+        <div class="col border m-2">Column2</div>
+        <div class="col border m-2">Column3</div>
+      </div>
     </div>
-    <div class="container border bg-info" style="height: 30vh;">
-        <div class="row">
-            <div class="col m-2 bg-primary text-light">
-                Column1
-            </div>
-            <div class="col m-2 bg-primary text-light">
-                Column2
-            </div>
-            <div class="col m-2 bg-primary text-light">
-                Column3
-            </div>
-        </div>
+    <div class="container border bg-info" style="height: 30vh">
+      <div class="row">
+        <div class="col m-2 bg-primary text-light">Column1</div>
+        <div class="col m-2 bg-primary text-light">Column2</div>
+        <div class="col m-2 bg-primary text-light">Column3</div>
+      </div>
     </div>
-    <div class="container border" style="height: 30vh;">
-        <div class="row">
-            <div class="col border m-2">
-                Column1
-            </div>
-            <div class="col border m-2">
-                Column2
-            </div>
-            <div class="col border m-2">
-                Column3
-            </div>
-            <div class="row">
-                <div class="col border m-2">
-                    Column4
-                </div>
-                <div class="col border m-2">
-                    Column5
-                </div>
-                <div class="col border m-2">
-                    Column6
-                </div>
-            </div>
-</body>
-
+    <div class="container border mt-2 overflow-scroll" style="height: 30vh">
+      <div class="row border m-2">
+        <div class="col border m-2 lg">Column1</div>
+        <div class="col border m-2 lg">Column2</div>
+        <div class="col border m-2 lg">Column3</div>
+      </div>
+      <div class="row border m-2">
+        <div class="col border m-2 xl">Column4</div>
+        <div class="col border m-3 xl">Column5</div>
+        <div class="col border m-4 xl">Column6</div>
+      </div>
+    </div>
+    <div class="container mt-2 bg-secondary" style="height: 30vh">
+      <div class="row bg-danger text-light m-2">
+        <div class="col m-2 md bg-primary">Column1</div>
+        <div class="col m-2 md bg-success">Column2</div>
+        <div class="col m-2 md bg-primary">Column3</div>
+      </div>
+      <div class="row  m-2 bg-warning text-dark">
+        <div class="col m-2 xl bg-info">Column4</div>
+        <div class="col m-2 xl bg-success">Column5</div>
+        <div class="col m-2 xl bg-success">Column6</div>
+      </div>
+    </div>
+  </body>
 </html>
